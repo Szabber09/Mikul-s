@@ -34,6 +34,8 @@ nav{
     background-color: red;
     height: 50px;
     grid-area: n;
+    padding: 0;
+
 }
 
 nav li{
@@ -41,6 +43,9 @@ nav li{
     border-bottom: 1px solid white;
     padding: 5px;
     list-style: none;
+    float: left;
+    width: 33%;
+    text-align: center;
 }
 a:hover{
     background-color: green;
@@ -50,6 +55,7 @@ nav a{
     text-decoration: none;
     color: white;
     font-weight: bold;
+    
 }
 
 article{
